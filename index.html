@@ -15,58 +15,83 @@
       <!-- Navbar -->
       <nav>
         <ul>
-          <li><a href="#aboutMe">About me</a></li>
-          <li><a href="#work">My Works</a></li>
-          <li><a href="#contact">Contact me</a></li>
-          <li><a href="#app">Application</a></li>
+          <li><a href="#about" class="nav-link">About me</a></li>
+          <li><a href="#work" class="nav-link">My Works</a></li>
+          <li><a href="#contact" class="nav-link">Contact me</a></li>
+          <li><a href="#app" class="nav-link">Application</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="aboutMe" id="aboutMe">
-      <h2 class="headingLeft">About me</h2>
-      <article class="paragraphRight">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-        voluptates totam tenetur animi laborum voluptas harum adipisci ad cum
-        assumenda nobis aliquid culpa, voluptatibus vitae quasi soluta placeat
-        ullam odio?
+      <section class="about" id="about">
+        <h2>About me</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+          voluptates totam tenetur animi laborum voluptas harum adipisci ad cum
+          assumenda nobis aliquid culpa, voluptatibus vitae quasi soluta placeat
+          ullam odio?
+        </p>
       </section>
-      </article>
       <!-- Work -->
 
-      <div class="work">
-        <h2 class="headingLeft" id="work">Work</h2>
-        <section class="cardlarge">
-          <h3>HTML</h3>
-          <img src="./assets/images/1.jpg" alt="HTML Placeholder" />
-        </section>
-        <section class="card">
-          <h3>CSS</h3>
-          <img src="./assets/images/2.jpg" alt="CSS Placeholder" />
-        </section>
-        <section class="card">
-          <h3>JavaScript</h3>
-          <img src="./assets/images/3.jpg" alt="JS Placeholder" />
-        </section>
-        <section class="card">
-          <h3>React</h3>
-          <img src="./assets/images/4.jpg" alt="React Placeholder" />
-        </section>
-        <section class="card">
-          <h3>Games</h3>
-          <img src="./assets/images/5.jpg" alt="Games Placeholder" />
-        </section>
-      </div>
+      <section class="works" id="works">
+        <h2 class="work-header">My Works</h2>
+
+        <div class="works-wrapper">
+          <div class="first-big">
+            <div class="work container">
+              <img
+                src="./assets/images/4.jpg"
+                alt="HTML Placeholder"
+                class="icon-big icon-card-big"
+              />
+              <div class="text-block">
+                <h3>HTML</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="second-set">
+          
+            <!-- <h3>CSS</h3> -->
+            <img
+              src="./assets/images/2.jpg"
+              alt="CSS Placeholder"
+              class="icon icon-card"
+            />
+            <!-- <h3>JavaScript</h3> -->
+            <img
+              src="./assets/images/3.jpg"
+              alt="JS Placeholder"
+              class="icon icon-card"
+            />
+            <!-- <h3>React</h3> -->
+            <img
+              src="./assets/images/1.jpg"
+              alt="React Placeholder"
+              class="icon icon-card"
+            />
+            <!-- <h3>Games</h3> -->
+            <img
+              src="./assets/images/5.jpg"
+              alt="Games Placeholder"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
       <div>
         <section class="contact">
-          <h2 class="headingLeft" id="contact">Contact Me</h2>
-       
-          <ul class = "paragraphRight">
-          <li>(760).815.8582</li>
-          <li>james91055@gmail.com</;>
-          <li><a href="https://github.com/james91055">Github</a></li>
-        </ul>
-       
+          <h2 id="contact">Contact Me</h2>
+
+          <ul>
+            <li class="contact-info">(760).815.8582</li>
+            <li class="contact-info">james91055@gmail.com</li>
+            <li class="contact-info">
+              <a href="https://github.com/james91055">Github</a>
+            </li>
+          </ul>
         </section>
       </div>
     </main>
