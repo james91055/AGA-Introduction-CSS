@@ -2,6 +2,9 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -9,11 +12,14 @@ header {
   padding: 1%;
   background-color: #13293d;
   color: #fff;
+  width: 100%;
 }
 
 h1 {
   font-size: 200%;
   letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
 }
 
 h2 {
@@ -35,6 +41,10 @@ body {
   justify-content: flex-start;
 }
 
+nav {
+  width: 100%;
+  min-width: 561px;
+}
 nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -109,24 +119,37 @@ nav ul {
   /* width: 200px; */
 }
 
-/* Bottom right text */
-.text-block {
+.first-big .text-block {
+  width: 100%;
+  color: #b9c6ae;
+  top: 0px;
+  margin: ０．25rem;
+  z-index: 30;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.second-set .text-block {
+  text-align: center;
+  justify-content: center;
   width: 11.275rem;
   color: #b9c6ae;
   top: 0px;
   margin: ０．25rem;
   z-index: 30;
+  display: inline-flex;
 }
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 12rem;
+  height: 12rem;
 }
 .icon:hover {
   opacity: 70%;
 }
 .icon-big {
   width: 35rem;
-  height: 11.25rem;
+  height: 20rem;
 }
 .icon-big:hover {
   opacity: 70%;
@@ -172,16 +195,22 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-  /* nav {
+  h1 {
+    width: 100%;
+  }
+  nav {
     padding: auto;
+    justify-content: center;
+    display: inline-flex;
   }
   nav ul {
     flex-direction: column;
+    display: inline-flex;
   }
   nav ul li {
     margin: 8px;
-    justify-content: center;
-  } */
+    float: inline-start;
+  }
 
   .contact {
     flex: auto;
@@ -198,11 +227,7 @@ footer {
     padding: 0;
   }
   .icon-big {
-    width: 11.875rem;
-    height: 11.25rem;
+    width: 12rem;
+    height: 12rem;
   }
 }
-
-/* #games {
-  background-image: url(/assets/images/5.jpg);
-} */
