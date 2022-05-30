@@ -1,74 +1,51 @@
-# AGA-Introduction-CSS
-CSS Challenge
-
-Nav bar-
-    Developer's name
-    recent photo
-    About me
-    Works
-    Contact me
-
-Nav bar ID links to section
-Section links to titled images of developer's applications
-
-First application img>>others
-
-Clicked the img of application --> deployed appliction
-
-Applicable to phone size and laptop size
-
-
-
-
-Need to use
-flexbox, 
-media queries, 
-and CSS variables.
-
-
-# 02 James Introduction Workshop
+# 02 James Introduction Portfolio
 
 ## Description
-### What This  Does
+
+### What This Does
+
 ```
-AS AN coding candidate
+AS A coding candidate
 I WANT to show my portfolio of work samples to potential employer
 SO THAT I can let the potential employer review samples of my work and understand my qualification to open position
 ```
 
 ### Technology Used
 
-
-* HTML
-  * Directory structure and Images
-  * Indentation 
-* CSS
-  * Order of importance
-  * Class vs. id
-  * Selectors
-  * Organize inefficent codes
-
-
+- HTML
+  - Directory structure and Images
+  - Indentation
+- CSS
+  - Navigation bar
+  - Flex box
+  - Hover
+  - Media Query
+  - Scroll up behavior
 
 ## Refactor Challenges to Optimization
-### Features in this Website
-```
-GIVEN a webpage meets accessibility standards 
-WHEN I view the source code
-THEN I find and update the semantic HTML elements to create a well organized and compatible CSS file
-WHEN I view the structure of the HTML elements
-THEN I find and update the elements to follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find and adding description with accessible alt attributes
-WHEN I view the heading attributes
-THEN I find and put them in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
 
+### Features in this Website
+
+Here are the critical to develop a portfolio that satisfies a typical hiring manager’s needs:
+
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
 
 ## Links and Credits
 
-* [How to write a good readme file](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
-* [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [Readme example](https://github.com/larymak/Html-Css-Recap)
+- [W3schools CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+- [How to Build Your Own Developer Portfolio Website with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#conclusion)
+- [Readme example](https://github.com/larymak/Html-Css-Recap)
