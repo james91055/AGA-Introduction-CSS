@@ -84,27 +84,39 @@ nav ul {
   padding: 1.25rem;
 }
 
-.works-wrapper,.text-block {
+.works-wrapper,
+.text-block {
   position: relative;
   text-align: center;
 }
 
-/* Container holding the image and the text */
 .container {
   position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container holding the image and the text */
+.container2 {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.container2 > div {
+  /* width: 200px; */
 }
 
 /* Bottom right text */
 .text-block {
-  position: absolute;
-  display: inline-block;
   width: 11.275rem;
   color: #b9c6ae;
   top: 0px;
-  margin: 1.25rem;
+  margin: ０．25rem;
   z-index: 30;
 }
-
 .icon {
   width: 11.875rem;
   height: 11.25rem;
@@ -190,3 +202,7 @@ footer {
     height: 11.25rem;
   }
 }
+
+/* #games {
+  background-image: url(/assets/images/5.jpg);
+} */
